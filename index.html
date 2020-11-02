@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Military Ranking</title>
+</head>
+<body>
+
+<h1>Ranks</h1>
+
+<form>
+    <input type="radio" name="rank" id="rank-sgt" value="Sergeant" data-rank="Sergeant">
+    <label for ="rank-sgt">Sergeant</label>
+
+    <br>
+
+    <input type="radio" name="rank" id="rank-cpl" value="Corporal" data-rank="Corporal">
+    <label for="rank-cpl">Corporal</label>
+
+    <br>
+
+    <input type="radio" name="rank" id="rank-cap" value="Captain" data-rank="Captain">
+    <label for="rank-cap">Captain</label>
+
+    <br>
+
+    <label for="nameFirst">First Name: </label>
+    <input type="text" name="name" id="nameFirst" data-name="firstName">
+
+
+    <br>
+
+    <label for="nameLast">Last Name: </label>
+    <input type="text" name="name" id="nameLast" data-name="lastName">
+
+
+    <br>
+
+    <button id="submit">Submit</button>
+</form>
+
+<p id="greet">
+
+</p>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="ranks.js"></script>
+</body>
+</html>
